@@ -11,10 +11,16 @@ import UIKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    let defaults = UserDefaults.standard
+    var databaseController: DatabaseProtocol?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        databaseController = CoreDataController()
+        if defaults.bool(forKey: "launched") != true {
+            databaseController?.resetDefaultEntries()
+            defaults.set(true, forKey: "launched")
+        }
         return true
     }
 

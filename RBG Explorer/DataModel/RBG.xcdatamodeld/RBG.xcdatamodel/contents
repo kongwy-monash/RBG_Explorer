@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19G2021" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Exhibition" representedClassName="Exhibition" syncable="YES">
+        <attribute name="desc" optional="YES" attributeType="String"/>
+        <attribute name="icon" attributeType="Binary" valueTransformerName="" allowsExternalBinaryDataStorage="YES"/>
+        <attribute name="latitude" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="longitude" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="name" attributeType="String"/>
+        <relationship name="plants" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Plant" inverseName="exhibitions" inverseEntity="Plant"/>
+    </entity>
+    <entity name="Plant" representedClassName="Plant" syncable="YES">
+        <attribute name="family" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="sname" attributeType="String"/>
+        <attribute name="year" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="exhibitions" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Exhibition" inverseName="plants" inverseEntity="Exhibition"/>
+    </entity>
+    <elements>
+        <element name="Exhibition" positionX="-63" positionY="-18" width="128" height="133"/>
+        <element name="Plant" positionX="-54" positionY="9" width="128" height="118"/>
+    </elements>
+</model>

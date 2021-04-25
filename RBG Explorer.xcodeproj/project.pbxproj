@@ -7,23 +7,71 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A1BCF20250FAF9000E245D8 /* ExhibitionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1BCF1F250FAF9000E245D8 /* ExhibitionTableViewController.swift */; };
 		5A3F3F0F2503A4CE00D977DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3F3F0E2503A4CE00D977DA /* AppDelegate.swift */; };
 		5A3F3F112503A4CE00D977DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3F3F102503A4CE00D977DA /* SceneDelegate.swift */; };
-		5A3F3F132503A4CE00D977DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3F3F122503A4CE00D977DA /* ViewController.swift */; };
 		5A3F3F162503A4CE00D977DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A3F3F142503A4CE00D977DA /* Main.storyboard */; };
 		5A3F3F182503A4D200D977DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A3F3F172503A4D200D977DA /* Assets.xcassets */; };
 		5A3F3F1B2503A4D200D977DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A3F3F192503A4D200D977DA /* LaunchScreen.storyboard */; };
+		5A8D5064251282120000F0B9 /* AddPlantTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8D5063251282120000F0B9 /* AddPlantTableViewController.swift */; };
+		5A917E2B25080AB1000D5D04 /* ExhibitionMapAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A917E2A25080AB1000D5D04 /* ExhibitionMapAnnotation.swift */; };
+		5AA0428F2513B34100EA35B2 /* WebRequestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA0428E2513B34100EA35B2 /* WebRequestController.swift */; };
+		5AA042912513B5E400EA35B2 /* WebRequestDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA042902513B5E400EA35B2 /* WebRequestDelegate.swift */; };
+		5AA042942514AAC200EA35B2 /* RootData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA042932514AAC200EA35B2 /* RootData.swift */; };
+		5AA042962514AD0E00EA35B2 /* LinksData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA042952514AD0E00EA35B2 /* LinksData.swift */; };
+		5AA04298251552EA00EA35B2 /* PlantData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA04297251552EA00EA35B2 /* PlantData.swift */; };
+		5AA0429C2516405B00EA35B2 /* PlantTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA0429B2516405B00EA35B2 /* PlantTableViewController.swift */; };
+		5AA0429E25164DC000EA35B2 /* EditPlantTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA0429D25164DC000EA35B2 /* EditPlantTableViewController.swift */; };
+		5AA042A025165D2300EA35B2 /* AddPlantForNewExhibitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA0429F25165D2300EA35B2 /* AddPlantForNewExhibitionViewController.swift */; };
+		5AA042A325174E2C00EA35B2 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA042A225174E2C00EA35B2 /* SettingsTableViewController.swift */; };
+		5ABA44C4250D0C7C00E9702A /* AddExhibitonTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABA44C3250D0C7C00E9702A /* AddExhibitonTableViewController.swift */; };
+		5AC383BE250A741C007FAE06 /* DatabaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC383BD250A741C007FAE06 /* DatabaseProtocol.swift */; };
+		5AC383C0250B44D8007FAE06 /* MulticastDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC383BF250B44D8007FAE06 /* MulticastDelegate.swift */; };
+		5AC383C2250B477B007FAE06 /* CoreDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC383C1250B477B007FAE06 /* CoreDataController.swift */; };
+		5AC383CC250BD4EB007FAE06 /* ExhibitionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC383CB250BD4EB007FAE06 /* ExhibitionTableViewCell.swift */; };
+		5AC57BAB2510B12300906081 /* Plant+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC57BA72510B12300906081 /* Plant+CoreDataClass.swift */; };
+		5AC57BAC2510B12300906081 /* Plant+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC57BA82510B12300906081 /* Plant+CoreDataProperties.swift */; };
+		5AC57BAD2510B12300906081 /* Exhibition+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC57BA92510B12300906081 /* Exhibition+CoreDataClass.swift */; };
+		5AC57BAE2510B12300906081 /* Exhibition+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC57BAA2510B12300906081 /* Exhibition+CoreDataProperties.swift */; };
+		5AF892C0250E12B400955B85 /* LocationSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF892BF250E12B400955B85 /* LocationSelectorViewController.swift */; };
+		5AFC0DFE2505510E0091B0E4 /* AllExhibitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFC0DFD2505510E0091B0E4 /* AllExhibitionViewController.swift */; };
+		5AFC0E00250551550091B0E4 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFC0DFF250551550091B0E4 /* MapViewController.swift */; };
+		5AFC0E0A25055A8E0091B0E4 /* RBG.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5AFC0E0825055A8E0091B0E4 /* RBG.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5A1BCF1F250FAF9000E245D8 /* ExhibitionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExhibitionTableViewController.swift; sourceTree = "<group>"; };
 		5A3F3F0B2503A4CE00D977DA /* RBG Explorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RBG Explorer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A3F3F0E2503A4CE00D977DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A3F3F102503A4CE00D977DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5A3F3F122503A4CE00D977DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5A3F3F152503A4CE00D977DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5A3F3F172503A4D200D977DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A3F3F1A2503A4D200D977DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5A3F3F1C2503A4D200D977DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A8D5063251282120000F0B9 /* AddPlantTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlantTableViewController.swift; sourceTree = "<group>"; };
+		5A917E2A25080AB1000D5D04 /* ExhibitionMapAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExhibitionMapAnnotation.swift; sourceTree = "<group>"; };
+		5AA0428E2513B34100EA35B2 /* WebRequestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebRequestController.swift; sourceTree = "<group>"; };
+		5AA042902513B5E400EA35B2 /* WebRequestDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebRequestDelegate.swift; sourceTree = "<group>"; };
+		5AA042932514AAC200EA35B2 /* RootData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootData.swift; sourceTree = "<group>"; };
+		5AA042952514AD0E00EA35B2 /* LinksData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinksData.swift; sourceTree = "<group>"; };
+		5AA04297251552EA00EA35B2 /* PlantData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantData.swift; sourceTree = "<group>"; };
+		5AA0429B2516405B00EA35B2 /* PlantTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantTableViewController.swift; sourceTree = "<group>"; };
+		5AA0429D25164DC000EA35B2 /* EditPlantTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPlantTableViewController.swift; sourceTree = "<group>"; };
+		5AA0429F25165D2300EA35B2 /* AddPlantForNewExhibitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlantForNewExhibitionViewController.swift; sourceTree = "<group>"; };
+		5AA042A225174E2C00EA35B2 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		5ABA44C3250D0C7C00E9702A /* AddExhibitonTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExhibitonTableViewController.swift; sourceTree = "<group>"; };
+		5AC383BD250A741C007FAE06 /* DatabaseProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseProtocol.swift; sourceTree = "<group>"; };
+		5AC383BF250B44D8007FAE06 /* MulticastDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MulticastDelegate.swift; sourceTree = "<group>"; };
+		5AC383C1250B477B007FAE06 /* CoreDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataController.swift; sourceTree = "<group>"; };
+		5AC383CB250BD4EB007FAE06 /* ExhibitionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExhibitionTableViewCell.swift; sourceTree = "<group>"; };
+		5AC57BA72510B12300906081 /* Plant+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Plant+CoreDataClass.swift"; sourceTree = "<group>"; };
+		5AC57BA82510B12300906081 /* Plant+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Plant+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		5AC57BA92510B12300906081 /* Exhibition+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Exhibition+CoreDataClass.swift"; sourceTree = "<group>"; };
+		5AC57BAA2510B12300906081 /* Exhibition+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Exhibition+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		5AF892BF250E12B400955B85 /* LocationSelectorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSelectorViewController.swift; sourceTree = "<group>"; };
+		5AFC0DFD2505510E0091B0E4 /* AllExhibitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllExhibitionViewController.swift; sourceTree = "<group>"; };
+		5AFC0DFF250551550091B0E4 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		5AFC0E0925055A8E0091B0E4 /* RBG.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RBG.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +104,71 @@
 		5A3F3F0D2503A4CE00D977DA /* RBG Explorer */ = {
 			isa = PBXGroup;
 			children = (
+				5AC383BC250A73F8007FAE06 /* Database */,
+				5AFC0E01250559FC0091B0E4 /* DataModel */,
+				5AA0428D2513B2FC00EA35B2 /* WebRequest */,
 				5A3F3F0E2503A4CE00D977DA /* AppDelegate.swift */,
 				5A3F3F102503A4CE00D977DA /* SceneDelegate.swift */,
-				5A3F3F122503A4CE00D977DA /* ViewController.swift */,
+				5AA042A225174E2C00EA35B2 /* SettingsTableViewController.swift */,
+				5AFC0DFF250551550091B0E4 /* MapViewController.swift */,
+				5AFC0DFD2505510E0091B0E4 /* AllExhibitionViewController.swift */,
+				5ABA44C3250D0C7C00E9702A /* AddExhibitonTableViewController.swift */,
+				5AA0429F25165D2300EA35B2 /* AddPlantForNewExhibitionViewController.swift */,
+				5AF892BF250E12B400955B85 /* LocationSelectorViewController.swift */,
+				5A1BCF1F250FAF9000E245D8 /* ExhibitionTableViewController.swift */,
+				5A8D5063251282120000F0B9 /* AddPlantTableViewController.swift */,
+				5AA0429B2516405B00EA35B2 /* PlantTableViewController.swift */,
+				5AA0429D25164DC000EA35B2 /* EditPlantTableViewController.swift */,
 				5A3F3F142503A4CE00D977DA /* Main.storyboard */,
+				5A917E2A25080AB1000D5D04 /* ExhibitionMapAnnotation.swift */,
+				5AC383CB250BD4EB007FAE06 /* ExhibitionTableViewCell.swift */,
 				5A3F3F172503A4D200D977DA /* Assets.xcassets */,
 				5A3F3F192503A4D200D977DA /* LaunchScreen.storyboard */,
 				5A3F3F1C2503A4D200D977DA /* Info.plist */,
 			);
 			path = "RBG Explorer";
+			sourceTree = "<group>";
+		};
+		5AA0428D2513B2FC00EA35B2 /* WebRequest */ = {
+			isa = PBXGroup;
+			children = (
+				5AA042922513BA6E00EA35B2 /* JsonModel */,
+				5AA042902513B5E400EA35B2 /* WebRequestDelegate.swift */,
+				5AA0428E2513B34100EA35B2 /* WebRequestController.swift */,
+			);
+			path = WebRequest;
+			sourceTree = "<group>";
+		};
+		5AA042922513BA6E00EA35B2 /* JsonModel */ = {
+			isa = PBXGroup;
+			children = (
+				5AA042932514AAC200EA35B2 /* RootData.swift */,
+				5AA04297251552EA00EA35B2 /* PlantData.swift */,
+				5AA042952514AD0E00EA35B2 /* LinksData.swift */,
+			);
+			path = JsonModel;
+			sourceTree = "<group>";
+		};
+		5AC383BC250A73F8007FAE06 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				5AC383BF250B44D8007FAE06 /* MulticastDelegate.swift */,
+				5AC383BD250A741C007FAE06 /* DatabaseProtocol.swift */,
+				5AC383C1250B477B007FAE06 /* CoreDataController.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		5AFC0E01250559FC0091B0E4 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				5AC57BA72510B12300906081 /* Plant+CoreDataClass.swift */,
+				5AC57BA82510B12300906081 /* Plant+CoreDataProperties.swift */,
+				5AC57BA92510B12300906081 /* Exhibition+CoreDataClass.swift */,
+				5AC57BAA2510B12300906081 /* Exhibition+CoreDataProperties.swift */,
+				5AFC0E0825055A8E0091B0E4 /* RBG.xcdatamodeld */,
+			);
+			path = DataModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +242,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A3F3F132503A4CE00D977DA /* ViewController.swift in Sources */,
+				5AF892C0250E12B400955B85 /* LocationSelectorViewController.swift in Sources */,
+				5AA042912513B5E400EA35B2 /* WebRequestDelegate.swift in Sources */,
+				5AFC0DFE2505510E0091B0E4 /* AllExhibitionViewController.swift in Sources */,
+				5AA042962514AD0E00EA35B2 /* LinksData.swift in Sources */,
 				5A3F3F0F2503A4CE00D977DA /* AppDelegate.swift in Sources */,
+				5AC57BAC2510B12300906081 /* Plant+CoreDataProperties.swift in Sources */,
+				5AA0429E25164DC000EA35B2 /* EditPlantTableViewController.swift in Sources */,
+				5AC383CC250BD4EB007FAE06 /* ExhibitionTableViewCell.swift in Sources */,
+				5AA04298251552EA00EA35B2 /* PlantData.swift in Sources */,
 				5A3F3F112503A4CE00D977DA /* SceneDelegate.swift in Sources */,
+				5AA042942514AAC200EA35B2 /* RootData.swift in Sources */,
+				5AC383C0250B44D8007FAE06 /* MulticastDelegate.swift in Sources */,
+				5AA042A025165D2300EA35B2 /* AddPlantForNewExhibitionViewController.swift in Sources */,
+				5AC57BAD2510B12300906081 /* Exhibition+CoreDataClass.swift in Sources */,
+				5AFC0E0A25055A8E0091B0E4 /* RBG.xcdatamodeld in Sources */,
+				5AC383C2250B477B007FAE06 /* CoreDataController.swift in Sources */,
+				5AA0429C2516405B00EA35B2 /* PlantTableViewController.swift in Sources */,
+				5AA042A325174E2C00EA35B2 /* SettingsTableViewController.swift in Sources */,
+				5AFC0E00250551550091B0E4 /* MapViewController.swift in Sources */,
+				5A8D5064251282120000F0B9 /* AddPlantTableViewController.swift in Sources */,
+				5AC57BAE2510B12300906081 /* Exhibition+CoreDataProperties.swift in Sources */,
+				5A1BCF20250FAF9000E245D8 /* ExhibitionTableViewController.swift in Sources */,
+				5A917E2B25080AB1000D5D04 /* ExhibitionMapAnnotation.swift in Sources */,
+				5AC383BE250A741C007FAE06 /* DatabaseProtocol.swift in Sources */,
+				5AC57BAB2510B12300906081 /* Plant+CoreDataClass.swift in Sources */,
+				5AA0428F2513B34100EA35B2 /* WebRequestController.swift in Sources */,
+				5ABA44C4250D0C7C00E9702A /* AddExhibitonTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +415,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C2H5PMV56D;
 				INFOPLIST_FILE = "RBG Explorer/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -294,7 +423,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kongwy.RBG-Explorer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -305,6 +434,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C2H5PMV56D;
 				INFOPLIST_FILE = "RBG Explorer/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,7 +442,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kongwy.RBG-Explorer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -338,6 +468,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5AFC0E0825055A8E0091B0E4 /* RBG.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5AFC0E0925055A8E0091B0E4 /* RBG.xcdatamodel */,
+			);
+			currentVersion = 5AFC0E0925055A8E0091B0E4 /* RBG.xcdatamodel */;
+			path = RBG.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 5A3F3F032503A4CD00D977DA /* Project object */;
 }
